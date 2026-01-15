@@ -19,7 +19,6 @@ function App() {
     <div className="app-bg">
       <div className="container">
         <h2>Todo List</h2>
-
         <div className="input-row">
           <input
             value={input}
@@ -28,7 +27,6 @@ function App() {
           />
           <button onClick={addTodo}>Add</button>
         </div>
-
         <ol className="todo-list">
           {todos.map((todo, i) => (
             <li key={i}>
